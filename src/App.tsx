@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { ProfileSetup } from './components/ProfileSetup';
-import { SimpleChatInterface } from './components/SimpleChatInterface';
-import { projectId, publicAnonKey } from './utils/supabase/info';
+import { ProfileSetup } from '../components/ProfileSetup';
+import { SimpleChatInterface } from '../components/SimpleChatInterface';
+import { projectId, publicAnonKey } from '../utils/supabase/info';
 
 // Generate a simple user ID for this session
 const getUserId = () => {
